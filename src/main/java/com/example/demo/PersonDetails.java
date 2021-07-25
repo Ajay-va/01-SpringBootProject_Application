@@ -30,10 +30,8 @@ public class PersonDetails {
 	public void setPaddress(String paddress) {
 		this.paddress = paddress;
 	}
-	@Override
-	public String toString() {
-		return "PersonDetails [pid=" + pid + ", pname=" + pname + ", paddress=" + paddress + "]";
-	}
 	
-	
+public PersonDetails() {
+	// TODO Auto-generated constructor stub
+}
 }
